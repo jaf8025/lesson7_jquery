@@ -5,6 +5,8 @@ Date:    21 Mar 2017
 Filename: drill4.js
 */
 
+
+
 //displays the next element after the current target
 function display(event) {
 
@@ -12,8 +14,11 @@ function display(event) {
 
 }//end of display
 
+
+
 //attach event listener to h3 elements to invoke display function when clicked
 //$("h3").click(display);
+
 
 //displays and animates the next element after the current target
 function display2(event) {
@@ -22,6 +27,7 @@ function display2(event) {
 
     
 }//end of display2
+
 
 //attach event listener to h3 elements to invoke display function when clicked
 $("h3").click(display2);
@@ -35,3 +41,4 @@ $("h3").hover(function(){
 
 //hover() will trigger display2 method each time mouse hovers over header
 $("h3").hover(display2);
+
